@@ -1,0 +1,104 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4228752406" file="C:\Users\user\Desktop\App\Text Based-Image Encryption.prj" location="C:\Users\user\Desktop\App" name="Text Based-Image Encryption" target="target.mlapps" target-name="Package App">
+    <param.appname>Text Based-Image Encryption</param.appname>
+    <param.authnamewatermark>Thaweesak Trongtirakul</param.authnamewatermark>
+    <param.email>thaweesak.tr@rmutp.ac.th</param.email>
+    <param.company>RMUTP</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\user\AppData\Local\Temp\tpe9089015_59b8_4ca5_ab00_d60d665c57aa.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>19c0f166-530f-4181-9ac4-de6033f1bd18</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Project.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\user\Desktop\555555555\6955.jpg</file>
+      <file>C:\Users\user\Desktop\555555555\adsadayut121212.jpg</file>
+      <file>C:\Users\user\Desktop\555555555\one.png</file>
+      <file>C:\Users\user\Desktop\555555555\Thaweesak.JPG</file>
+      <file>C:\Users\user\Desktop\555555555\two.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\user\Desktop" name="App" optional="false">C:\Users\user\Desktop\App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
